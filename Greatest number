@@ -1,0 +1,15 @@
+a=int(input("Enter number:"))
+b=int(input("Enter number:"))
+c=int(input("Enter number:"))
+d=int(input("Enter number:"))
+e=int(input("Enter number:"))
+if a>b and a>c and a>d and a>e:
+   print(a ,"is the greatest number")
+elif b>a and b>c and b>d and b>e:
+   print(b ,"is the greatest number")
+elif c>b and c>a and c>d and c>e:
+   print(c ,"is the greatest number")
+elif d>b and d>c and d>a and d>e:
+   print(d,"is the greatest number")
+else:
+   print(e,"is the greatest number")
